@@ -18,10 +18,10 @@ const Portfolio = () => {
               <div className='project-info'>
                 <h4>{name}</h4>
                 <div className='links'>
-                  <a href={gitlink}>
+                  <a href={gitlink} target='_blank'>
                     <span>{gitlogo}</span>
                   </a>
-                  <a href={weblink} className='btn'>
+                  <a href={weblink} target='_blank' className='btn'>
                     visit
                   </a>
                 </div>

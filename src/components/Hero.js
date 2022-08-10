@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Socials from './Socials'
-import face from '../images/face.JPG'
+import face from '../images/face.jpg'
 
 const Hero = () => {
   return (

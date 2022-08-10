@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import body from '../images/body.JPG'
+import body from '../images/body.jpg'
 
 const About = () => {
   return (

@@ -3,6 +3,7 @@ import { FaBars } from 'react-icons/fa'
 import styled from 'styled-components'
 import { links } from '../utils/data'
 import { Link } from 'react-scroll'
+import frontend from '../images/frontend.pdf'
 
 const Navbar = () => {
   const [showLinks, setShowLinks] = useState(false)
@@ -53,7 +54,9 @@ const Navbar = () => {
           </ul>
         </div>
         <div className='cv-container'>
-          <a href=''>download CV</a>
+          <a href={frontend} download>
+            download CV
+          </a>
         </div>
       </div>
     </Wrapper>
