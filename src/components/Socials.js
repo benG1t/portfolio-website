@@ -9,7 +9,7 @@ const Socials = () => {
         const { id, url, icon } = item
         return (
           <span key={id} className='icon'>
-            <a href={url} target='_blank'>
+            <a href={url} target='_blank' rel='noreferrer'>
               {icon}
             </a>
           </span>
