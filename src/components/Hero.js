@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Socials from './Socials'
-import face from '../images/face.jpg'
+import facess from '../images/facess.jpg'
 
 const Hero = () => {
   return (
@@ -17,7 +17,7 @@ const Hero = () => {
           <Socials />
         </article>
         <article className='img-container'>
-          <img src={face} alt='' className='hero-photo' />
+          <img src={facess} alt='' className='hero-photo' />
         </article>
       </div>
     </Wrapper>
