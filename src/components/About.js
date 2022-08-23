@@ -1,13 +1,14 @@
 import React from 'react'
 import styled from 'styled-components'
-import body from '../images/body.jpg'
+// import body from '../images/body.jpg'
+import sside from '../images/sside.jpg'
 
 const About = () => {
   return (
     <Wrapper className='section' id='about'>
       <div className='about-center section-center'>
         <article className='img-container'>
-          <img src={body} alt='' className='about-photo' />
+          <img src={sside} alt='' className='about-photo' />
         </article>
         <article className='about-info'>
           <h2>about</h2>
