@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useRef, useState } from 'react'
 import { FaBars } from 'react-icons/fa'
 import styled from 'styled-components'
 import { links } from '../utils/data'
@@ -12,16 +12,16 @@ const Navbar = () => {
   const toggleLinks = () => {
     setShowLinks(!showLinks)
   }
-  useEffect(() => {
-    const linksHeight = linksRef.current.getBoundingClientRect().height
-    if (showLinks) {
-      linksContainerRef.current.style.height = `${linksHeight}px`
-      linksContainerRef.current.style.borderBottom = `1px solid white`
-    } else {
-      linksContainerRef.current.style.height = '0px'
-      linksContainerRef.current.style.borderBottom = `none`
-    }
-  }, [showLinks])
+  // useEffect(() => {
+  //   const linksHeight = linksRef.current.getBoundingClientRect().height
+  //   if (showLinks) {
+  //     linksContainerRef.current.style.height = `${linksHeight}px`
+  //     linksContainerRef.current.style.borderBottom = `1px solid white`
+  //   } else {
+  //     linksContainerRef.current.style.height = '0px'
+  //     linksContainerRef.current.style.borderBottom = `none`
+  //   }
+  // }, [showLinks])
 
   return (
     <Wrapper>
