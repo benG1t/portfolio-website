@@ -5,7 +5,9 @@ import {
   FaWhatsapp,
   FaHtml5,
   FaReact,
+  FaNode,
 } from 'react-icons/fa'
+import { SiMongodb } from 'react-icons/si'
 import { IoLogoCss3 } from 'react-icons/io'
 import { TbBrandJavascript } from 'react-icons/tb'
 import homeimg from '../images/home-img.jpeg'
@@ -77,6 +79,16 @@ export const skills = [
     id: 4,
     text: ' react',
     icon: <FaReact />,
+  },
+  {
+    id: 5,
+    text: ' Node/Express',
+    icon: <FaNode />,
+  },
+  {
+    id: 6,
+    text: ' MongoDb',
+    icon: <SiMongodb />,
   },
 ]
 
