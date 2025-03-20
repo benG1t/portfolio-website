@@ -6,12 +6,17 @@ import {
   FaHtml5,
   FaReact,
   FaNode,
+  FaPhp,
+  FaLaravel,
 } from 'react-icons/fa'
+// import { BiLogoPostgresql } from 'react-icons/bi'
+import { SiPostgresql } from 'react-icons/si'
 import { SiMongodb } from 'react-icons/si'
 import { IoLogoCss3 } from 'react-icons/io'
 import { TbBrandJavascript } from 'react-icons/tb'
 import homeimg from '../images/home-img.jpeg'
 import moviesdb from '../images/moviesdb.jpg'
+import workopia from '../images/workopia.png'
 // import cocktailsdb from '../images/cocktailsdb.jpg'
 // import random from '../images/random.jpg'
 // import grocerybud from '../images/grocerybud.jpg'
@@ -90,6 +95,21 @@ export const skills = [
     text: ' MongoDb',
     icon: <SiMongodb />,
   },
+  {
+    id: 7,
+    text: ' Php',
+    icon: <FaPhp />,
+  },
+  {
+    id: 8,
+    text: ' Laravel',
+    icon: <FaLaravel />,
+  },
+  {
+    id: 9,
+    text: ' Postgresql',
+    icon: <SiPostgresql />,
+  },
 ]
 
 export const portfolio = [
@@ -115,6 +135,14 @@ export const portfolio = [
     img: moviesdb,
     gitlink: 'https://github.com/benG1t/movie-db',
     weblink: 'https://myy-movie-db.netlify.app/',
+    gitlogo: <FaGithub />,
+  },
+  {
+    id: 4,
+    name: 'workopia',
+    img: workopia,
+    gitlink: 'https://github.com/benG1t/laravelJobSite',
+    weblink: 'https://benjaminokundaye.netlify.app/',
     gitlogo: <FaGithub />,
   },
   // {
